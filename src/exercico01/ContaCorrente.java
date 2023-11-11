@@ -1,4 +1,6 @@
-public class ContaCorrente extends Conta implements Operavel{
+package exercico01;
+
+public class ContaCorrente extends Conta implements Operavel {
     @Override
     protected double obterSaldoAtual() {
         return super.saldo;
